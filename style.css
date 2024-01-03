@@ -1,0 +1,35 @@
+:root {
+  --main-bg-color: rgb(35, 35, 35);
+  --placeholder-text-color: rgb(90, 90, 90);
+}
+
+.flex {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    height: 90vh;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+
+  body {
+    background-color: var(--main-bg-color);
+    color: white;
+  }
+  
+  div {
+    background-color: var(--main-bg-color);
+  }
+  
+  input[type="text"] {
+    background-color: var(--placeholder-text-color);
+  }
+  
+  input[type="text"]::placeholder {
+    color: white;
+  }
